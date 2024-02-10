@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout << "Hello";
+    cout << "Hello ";
+    for (int i = 1; i <= 5; i++)
+    {
+        cout << i << " ";
+    }
+    
     return 0;
 }
